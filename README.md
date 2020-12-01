@@ -29,6 +29,11 @@ Listed in the Gemfile. Run 'bundle install' to install the prerequisites
 - Github: [@newhorizon-tech](https://github.com/newhorizon-tech)
 - Twitter: [@techintosh3](https://twitter.com/techintosh3)
 
+👤 **Oguadinma Nkiruka Ngozika**
+
+-   Github: [@enkog](https://github.com/enkog)
+-   Linkedin: [@enkog](https://www.linkedin.com/in/enkog/)
+-   Twitter: [@enkodes](https://twitter.com/enkodes)
 
 ## 🤝 Contributing
 
