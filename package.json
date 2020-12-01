@@ -1,5 +1,5 @@
 {
-  "name": "Micro_Reddit",
+  "name": "microreddit",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",

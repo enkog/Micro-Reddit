@@ -1,24 +1,41 @@
-# README
+# micro-reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a mini-project that builds the data model required to create a basic version of reddit. It includes the functionality for creating/storing/retrieving users, posts and comments.
 
-Things you may want to cover:
+> It is built using the 'Active Record' feature in Ruby on Rails
 
-* Ruby version
+![screenshot](./img/screenshot.png)
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- Atom
+- VS Code
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+Listed in the Gemfile. Run 'bundle install' to install the prerequisites
 
-* How to run the test suite
+### Usage
 
-* Services (job queues, cache servers, search engines, etc.)
+- Clone this repo
+- Run bin/rails console
+- Use active record syntax to create new users, posts and comments
 
-* Deployment instructions
+## Authors
 
-* ...
+👤 **Alaukik**
+
+- Github: [@newhorizon-tech](https://github.com/newhorizon-tech)
+- Twitter: [@techintosh3](https://twitter.com/techintosh3)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
