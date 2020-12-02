@@ -77,7 +77,7 @@ To display all users, posts, and comments
 
 >- `p1.comments.first` will show the first comment on the post p1
 
->- `c1.post` will the post which has the comment c1
+>- `c1.post` will show the post which has the comment c1
 
 
 ## Authors
