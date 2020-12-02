@@ -34,21 +34,30 @@ To get this project up and running locally, you must have installed, ruby, rails
 - To start using the commands, you have to run ```rails console``` in te the root directory of the project.
 
 - Creating Users
+
 > ```user1 = User.create(username: 'User One', password: 'password', email: 'userone@email.com') ```
- >```user2 = User.create(username: 'User Two', password: 'password', email: 'usertwo@email.com') ```
+
+>```user2 = User.create(username: 'User Two', password: 'password', email: 'usertwo@email.com') ```
 
 - Creating Posts
+
 > `post1 = user1.posts.create(title: 'Post One Title', body: 'Post One Body')`
+
 > `post2 = user2.posts.create(title: 'Post Two Title', body: 'Post Two Body')`
 
 - Creating Comments
+
 > `comment1 = post1.comments.create(body: 'Comment One Body', user_id: user2.id)`
+
 > `comment2 = post1.comments.create(body: 'Comment One Body', user_id: user1.id)`
 
 - Querying data
 To display all users, posts, and comments
+
 > `User.all`
+
 >`Post.all`
+
 >`Comment all`
 
  To find a post with an id 2
@@ -60,11 +69,15 @@ To display all users, posts, and comments
 
 - Testing Associations
 
->` c1 = user2.comments.first` should return User 2's comment. #comments function returns an array with all comments from User 2. This is why we need the #first function to get the first comment from the array.
-> `c1.user` will show the User who made the comment (user2).
-> `p1 = Post.first` will assign the first post to p1
-> `p1.comments.first` will show the first comment on the post p1
-> `c1.post` will the post which has the comment c1
+>- ` c1 = user2.comments.first` should return User 2's comment. #comments function returns an array with all comments from User 2. This is why we need the #first function to get the first comment from the array.
+
+>- `c1.user` will show the User who made the comment (user2).
+
+>- `p1 = Post.first` will assign the first post to p1
+
+>- `p1.comments.first` will show the first comment on the post p1
+
+>- `c1.post` will the post which has the comment c1
 
 
 ## Authors
